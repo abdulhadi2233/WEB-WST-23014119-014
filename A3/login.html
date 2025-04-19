@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVEL WEBSITE | Login</title>
+    <script
+      src="https://kit.fontawesome.com/904d4f907f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar bg-dark">
+      <div class="container">
+        <h1 class="logo lg-heading">WT</h1>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="/A3/landing.html">Home</a></li>
+          <li class="nav-item"><a href="/A3/about.html">About</a></li>
+          <li class="nav-item"><a href="/A3/contact.html">Contact</a></li>
+          <li class="nav-item"><a href="/A3/login.html" class="active">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="login-form">
+      <div class="container">
+        <div class="form-wrapper">
+          <form action="" class="form">
+            <h1 class="lg-heading text-black">Welcome Back</h1>
+            <p class="text-grey">Sign in to manage your upcoming trips, access exclusive member deals, and view your travel history</p>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required>
+            </div>
+            
+            <div class="form-options">
+              <label class="remember-me">
+                <input type="checkbox" name="remember"> Remember me
+              </label>
+              <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            
+            <button type="submit" class="form-btn">Login</button>
+            
+            <div class="register-link">
+              <p>New to World Travel? <a href="#">Create an account</a></p>
+            </div>
+          </form>
+          
+          <div class="login-image">
+            <img src="/A3/imgz/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg" alt="Travel experience">
+            <div class="image-overlay">
+              <h2 class="md-heading">Your Journey Awaits</h2>
+              <p>Members enjoy 10% off select tours, early access to new destinations, and personalized travel recommendations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href=""><i class="fa-brands fa-facebook fa-3x img1"></i></a>
+        <a href=""><i class="fa-brands fa-instagram fa-3x img1"></i></a>
+        <a href=""><i class="fa-brands fa-twitter fa-3x img1"></i></a>
+      </div>
+      <p>World Travel &copy; 2024, All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
