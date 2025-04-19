@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL WEBSITE | About</title>
+    <script src="https://kit.fontawesome.com/904d4f907f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        ul li::before {
+            content: '✓';
+            color: #e63946;
+            font-weight: bold;
+            padding-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-gray-800 py-4">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-white text-3xl font-medium">WT</h1>
+                <ul class="flex space-x-4">
+                    <li><a href="/A2/landing.html" class="text-white hover:border-b border-white pb-1">Home</a></li>
+                    <li><a href="/A2/about.html" class="text-white hover:border-b border-white pb-1">About</a></li>
+                    <li><a href="/A2/contact.html" class="text-white hover:border-b border-white pb-1">Contact</a></li>
+                    <li><a href="/A2/login.html" class="text-white hover:border-b border-white pb-1">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-medium text-gray-800 mb-4 pb-2 border-b-4 border-red-500">OUR STORY</h2>
+            <p class="mb-8">
+                Founded in 2010 by a team of passionate globetrotters, World Travel has grown from a small boutique agency to a trusted name in adventure tourism. We believe travel has the power to change lives and broaden perspectives, and we're committed to creating transformative experiences for our clients.
+            </p>
+            
+            <div class="flex flex-col md:flex-row mb-12 text-center">
+                <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                    <ul class="space-y-2">
+                        <li>100% financial protection for all bookings</li>
+                        <li>24/7 emergency support during your travels</li>
+                        <li>Ethical partnerships with local communities</li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <ul class="space-y-2">
+                        <li>Carbon offset program for all flights</li>
+                        <li>Hand-picked accommodations for quality</li>
+                        <li>Flexible booking and cancellation policies</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap mb-12">
+                <div class="w-full md:w-1/4 text-center mb-8 md:mb-0">
+                    <span class="text-3xl font-bold text-red-500 block">2500</span>
+                    <p class="font-bold text-gray-600 text-lg">Satisfied Travelers</p>
+                </div>
+                <div class="w-full md:w-1/4 text-center mb-8 md:mb-0">
+                    <span class="text-3xl font-bold text-red-500 block">400</span>
+                    <p class="font-bold text-gray-600 text-lg">Destinations Worldwide</p>
+                </div>
+                <div class="w-full md:w-1/4 text-center mb-8 md:mb-0">
+                    <span class="text-3xl font-bold text-red-500 block">500</span>
+                    <p class="font-bold text-gray-600 text-lg">Expert Guides</p>
+                </div>
+                <div class="w-full md:w-1/4 text-center">
+                    <span class="text-3xl font-bold text-red-500 block">20</span>
+                    <p class="font-bold text-gray-600 text-lg">Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mx-auto px-4 mb-12">
+        <div class="bg-gradient-to-r from-pink-600 to-red-500 text-white p-4 shadow-lg">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="w-full md:w-3/5 mb-4 md:mb-0">
+                    <p class="font-bold text-xl md:text-2xl mt-2">Ready to start your next adventure? Our travel experts are standing by to help plan your perfect trip.</p>
+                </div>
+                <div class="w-full md:w-2/5 text-right">
+                    <a href="/contact.html" class="inline-block border-4 border-white px-8 py-2 text-xl font-bold uppercase text-white">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="mb-4">
+            <a href="#" class="mx-4"><i class="fa-brands fa-facebook fa-3x hover:scale-150 transition-transform"></i></a>
+            <a href="#" class="mx-4"><i class="fa-brands fa-instagram fa-3x hover:scale-150 transition-transform"></i></a>
+            <a href="#" class="mx-4"><i class="fa-brands fa-twitter fa-3x hover:scale-150 transition-transform"></i></a>
+        </div>
+        <p>World Travel &copy; 2024, All Rights Reserved</p>
+    </footer>
+</body>
+</html>

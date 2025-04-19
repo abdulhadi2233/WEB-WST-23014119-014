@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL WEBSITE | WELCOME</title>
+    <script src="https://kit.fontawesome.com/904d4f907f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="relative h-[98vh] bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))] bg-center bg-cover" style="background-image: url(/A2/imgs/header-image.jpg)">
+        <nav class="py-4">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-white text-3xl font-medium">WT</h1>
+                    <ul class="flex space-x-4">
+                        <li><a href="/A2/landing.html" class="text-white hover:border-b border-white pb-1">Home</a></li>
+                        <li><a href="/A2/about.html" class="text-white hover:border-b border-white pb-1">About</a></li>
+                        <li><a href="/A2/contact.html" class="text-white hover:border-b border-white pb-1">Contact</a></li>
+                        <li><a href="/A2/login.html" class="text-white hover:border-b border-white pb-1">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+            <h1 class="text-3xl md:text-4xl font-bold uppercase mb-4">EXPLORE THE WORLD</h1>
+            <p class="uppercase mb-6">Discover breathtaking destinations, immerse yourself in diverse cultures, and create memories that last a lifetime</p>
+            <a href="#" class="inline-block bg-white text-red-500 px-4 py-2 rounded-full font-medium uppercase hover:bg-gray-200">Explore Places</a>
+        </div>
+    </header>
+
+    <section class="py-20 bg-gray-200">
+        <div class="container mx-auto px-4">
+            <div class="bg-white shadow-lg mb-20 h-[350px] overflow-hidden">
+                <div class="flex flex-col md:flex-row h-full">
+                    <div class="w-full md:w-1/2 h-full">
+                        <img src="/A2/imgs/showcase-photo3.jpg" alt="Coastal town in UK" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full md:w-1/2 p-12">
+                        <h2 class="text-3xl font-medium text-gray-800 mb-4">DEGANVY, UK</h2>
+                        <p class="text-gray-600 mb-6">
+                            Experience the charming coastal beauty of Deganwy in North Wales. With its medieval castle ruins, stunning marina, and panoramic views of the Conwy Estuary, this picturesque town offers the perfect blend of history and natural beauty. Enjoy fresh seafood at waterfront restaurants or explore the nearby Snowdonia National Park.
+                        </p>
+                        <a href="./A2/about.html" class="inline-block border-2 border-red-500 text-red-500 px-6 py-1 rounded-full uppercase hover:bg-gray-100">More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg h-[350px] overflow-hidden">
+                <div class="flex flex-col md:flex-row-reverse h-full">
+                    <div class="w-full md:w-1/2 h-full">
+                        <img src="/A2/imgs/showcase-photo1.jpg" alt="Egyptian desert" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-full md:w-1/2 p-12">
+                        <h2 class="text-3xl font-medium text-gray-800 mb-4">WESTERN DESERT, EGYPT</h2>
+                        <p class="text-gray-600 mb-6">
+                            Journey through the golden sands of Egypt's Western Desert, home to stunning white chalk rock formations and hidden oases. Explore the surreal landscapes of the White Desert, camp under star-filled skies, and discover ancient caravan routes used for centuries by Bedouin tribes. A true adventure for those seeking the extraordinary.
+                        </p>
+                        <a href="./about.html" class="inline-block border-2 border-red-500 text-red-500 px-6 py-1 rounded-full uppercase hover:bg-gray-100">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="shadow-lg overflow-hidden">
+                <div class="flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3 bg-gray-800 text-white p-8 text-center">
+                        <i class="fa-solid fa-route text-2xl mb-4"></i>
+                        <h2 class="text-xl font-medium mb-4">Tailored Adventures</h2>
+                        <p>
+                            Our expert travel designers create personalized itineraries that match your interests and travel style, ensuring every trip is as unique as you are.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/3 bg-gradient-to-r from-pink-600 to-red-500 text-white p-8 text-center">
+                        <i class="fa-solid fa-strikethrough text-2xl mb-4"></i>
+                        <h2 class="text-xl font-medium mb-4">Best Value</h2>
+                        <p>
+                            We negotiate the best rates with premium partners worldwide, passing the savings to you while maintaining exceptional quality and service standards.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/3 bg-gray-800 text-white p-8 text-center">
+                        <i class="fa-solid fa-user-check text-2xl mb-4"></i>
+                        <h2 class="text-xl font-medium mb-4">Local Experts</h2>
+                        <p>
+                            Our network of local guides and specialists provide authentic experiences and insider access you won't find in guidebooks or typical tours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="mb-4">
+            <a href="#" class="mx-4"><i class="fa-brands fa-facebook fa-3x hover:scale-150 transition-transform"></i></a>
+            <a href="#" class="mx-4"><i class="fa-brands fa-instagram fa-3x hover:scale-150 transition-transform"></i></a>
+            <a href="#" class="mx-4"><i class="fa-brands fa-twitter fa-3x hover:scale-150 transition-transform"></i></a>
+        </div>
+        <p>World Travel &copy; 2024, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
